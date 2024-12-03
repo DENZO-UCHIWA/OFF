@@ -8,7 +8,7 @@ let singleText = async (message, match, { cmdName }) => {
   try {
     let logo = {
       pubg1:
-        "tao-cover-game-pubg-anh-bia-game-playerunknown-s-battlegrounds-401",
+        "https://raw.githubusercontent.com/SuhailTechInfo/Suhail-Md-Media/main/plugins/pubg.js",
       pubg2: "tao-anh-bia-cover-facebook-game-pubg-407",
       pubg3: "tao-logo-pubg-truc-tuyen-mien-phi-714",
       pubg4: "tao-logo-mascot-pubg-online-sieu-ngau-716",
