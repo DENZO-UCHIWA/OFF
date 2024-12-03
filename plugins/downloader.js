@@ -1979,7 +1979,7 @@ cmd({
          url: _0x59bbaa
        },
        mimetype: "audio/mpeg",
-       fileName: "BLAST-MD-V2--" + _0x1d542b[1] + ".mp3",
+       fileName: "BLAST-MD" + _0x1d542b[1] + ".mp3",
        caption: Config.caption,
        contextInfo: _0x10e2fa
      };
@@ -2000,7 +2000,7 @@ cmd({
  }) => {
    if (_0xb75e78.quoted && _0xb75e78.text) {
      const _0x5b8ee5 = _0xb75e78.quoted.text.split("\n");
-     if (_0x5b8ee5[0].includes("BLADE-MD-V2 • SONG DOWNLOADER")) {
+     if (_0x5b8ee5[0].includes("BLAST-MD • SONG DOWNLOADER")) {
        const _0x1724ba = _0x5b8ee5.find(_0x525632 => _0x525632.startsWith("Url :"));
        let _0x43a95e = _0x1724ba.replace("Url :", "").trim();
        try {
@@ -2184,7 +2184,7 @@ cmd({
        return "" + Math[_0x2d6457(252)](Math[_0x2d6457(224)]() * 10000) + _0x5202bc;
      };
      if (!_0x45d2ef || !_0x45d2ef.includes("=") || !/http/gi[_0x38a391(216)](_0x45d2ef)) {
-       return await _0x1283e0[_0x38a391(244)]("*Use Playlist URL, Like: " + prefix + "playlist https://www.youtube.com/playlist?list=PLZeei0S6_unh-jTeWsJI1mOI6snxeHn5c*");
+       return await _0x1283e0[_0x38a391(244)]("*Use Playlist URL, Like: " + prefix + "playlist https://www.youtube.com?list=PLZeei0S6_unh-jTeWsJI1mOI6snxeHn5c*");
      }
      let _0x1c2a7e = _0x45d2ef[_0x38a391(250)]("=")[1][_0x38a391(250)](" ")[0];
      console[_0x38a391(217)](_0x1c2a7e);
