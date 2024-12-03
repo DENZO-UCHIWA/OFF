@@ -56,7 +56,7 @@ module.exports = {
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
-  OPENAI_API_KEY: process.env.OPENAI_API_KEY || "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",
+  OPENAI_API_KEY: process.env.OPENAI_API_KEY || "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",
   HEROKU_API_KEY: process.env.HEROKU_API_KEY || "",
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME || "",
   antilink_values: process.env.ANTILINK_VALUES || "all",
