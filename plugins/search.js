@@ -17,7 +17,7 @@ smd(
         return await m.send("*_Please provide a song name!_*");
       }
 
-      const apiUrl = `https://chatgpt.com/c/6748ce11-447c-8012-a33c-fea645df13fd${encodeURIComponent(
+      const apiUrl = `https://api.lyrics.ovh/v1/${encodeURIComponent(
         songName
       )}`;
       const response = await fetch(apiUrl);
