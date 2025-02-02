@@ -363,7 +363,7 @@ smd({
     let _0x365550 = "𝑩𝑳𝑨𝑺𝑻-𝑴𝑫 𝑭𝑨𝑵𝑪𝒀\n\n " + (_0x3b568a ? "```🔢Reply the number you wants to select``` \n\n" : "```\t\t" + prefix + "fancy BLAST-MD BY DENZO-UCHIWA(For all text)\n\t\t" + prefix + "fancy 25 BLAST-MD(For specific text)```\n\n");
     let _0x50c7d9 = parseInt(_0x3b568a);
     if (isNaN(_0x50c7d9)) {
-      let _0x4ca942 = _0x3b568a ? _0x3b568a : "BLADE-MD-V2";
+      let _0x4ca942 = _0x3b568a ? _0x3b568a : "BLAST-MD";
       listall(_0x4ca942).forEach((_0x51f58f, _0x2be109) => {
         _0x365550 += "\n" + (_0x2be109 += 1) + " " + _0x51f58f + "\n";
       });
